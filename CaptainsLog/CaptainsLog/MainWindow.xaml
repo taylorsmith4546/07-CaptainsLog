@@ -1,0 +1,22 @@
+﻿<Window x:Class="CaptainsLog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaptainsLog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="gridLogEntries" HorizontalAlignment="Left" Margin="248,22,0,0" VerticalAlignment="Top" Height="199" Width="259" SelectionMode="Extended" SelectionUnit="FullRow" SelectionChanged="gridLogEntries_SelectionChanged"/>
+        <Button x:Name="button" Content="Publish" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" Width="102" Height="27" Click="button_Click"/>
+        <TextBox x:Name="textBox_Title" HorizontalAlignment="Left" Height="27" Margin="10,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+        <Label x:Name="label_Title" Content="Title" HorizontalAlignment="Left" Height="24" Margin="10,0,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Entry" HorizontalAlignment="Left" Height="192" Margin="10,104,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="233"/>
+        <Label x:Name="label_Entry" Content="Entry:" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.535,0.948"/>
+        <Button x:Name="button_Clear" Content="Clear" HorizontalAlignment="Left" Margin="131,54,0,0" VerticalAlignment="Top" Width="112" Click="buttonClear_Click" Height="27"/>
+        <Button x:Name="button_Delete" Content="Delete" HorizontalAlignment="Left" Margin="405,277,0,0" VerticalAlignment="Top" Width="76" Click="button_Delete_Click" Height="27"/>
+        <TextBox x:Name="idSelect" HorizontalAlignment="Left" Height="38" Margin="387,234,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="idSelect_TextChanged"/>
+        <Label x:Name="label" Content="Journal ID:" HorizontalAlignment="Left" Margin="312,234,0,0" VerticalAlignment="Top" Width="75" Height="38"/>
+
+    </Grid>
+</Window>

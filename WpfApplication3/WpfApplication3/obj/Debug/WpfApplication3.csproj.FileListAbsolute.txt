@@ -1,0 +1,1 @@
+C:\Dev\GitHub\CaptainsLog\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe.config

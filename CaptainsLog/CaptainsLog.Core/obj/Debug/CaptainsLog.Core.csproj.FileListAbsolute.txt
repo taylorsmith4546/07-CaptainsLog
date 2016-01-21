@@ -1,0 +1,5 @@
+C:\Dev\GitHub\CaptainsLog\CaptainsLog\CaptainsLog.Core\bin\Debug\CaptainsLog.Core.dll
+C:\Dev\GitHub\CaptainsLog\CaptainsLog\CaptainsLog.Core\bin\Debug\CaptainsLog.Core.pdb
+C:\Dev\GitHub\CaptainsLog\CaptainsLog\CaptainsLog.Core\obj\Debug\CaptainsLog.Core.csprojResolveAssemblyReference.cache
+C:\Dev\GitHub\CaptainsLog\CaptainsLog\CaptainsLog.Core\obj\Debug\CaptainsLog.Core.dll
+C:\Dev\GitHub\CaptainsLog\CaptainsLog\CaptainsLog.Core\obj\Debug\CaptainsLog.Core.pdb
